@@ -1,0 +1,23 @@
+{
+  "ehcacheFrlStestExampleApp": {
+    "sLA": {
+      "home": {
+        "title": "SLAS",
+        "createLabel": "Create a new SLA",
+        "createOrEditLabel": "Create or edit a SLA",
+        "notFound": "No SLAS found"
+      },
+      "created": "A new SLA is created with identifier {{ param }}",
+      "updated": "A SLA is updated with identifier {{ param }}",
+      "deleted": "A SLA is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete SLA {{ id }}?"
+      },
+      "detail": {
+        "title": "SLA"
+      },
+      "rts": "Rts",
+      "user": "User"
+    }
+  }
+}

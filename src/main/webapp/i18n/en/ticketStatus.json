@@ -1,0 +1,12 @@
+{
+  "ehcacheFrlStestExampleApp": {
+    "TicketStatus": {
+      "null": "",
+      "PENDING": "PENDING",
+      "REJECTED": "REJECTED",
+      "OPEN": "OPEN",
+      "SOLVED": "SOLVED",
+      "CANCELED": "CANCELED"
+    }
+  }
+}

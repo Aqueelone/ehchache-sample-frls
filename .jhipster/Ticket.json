@@ -1,0 +1,32 @@
+{
+    "name": "Ticket",
+    "fields": [
+        {
+            "fieldName": "description",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "status",
+            "fieldType": "TicketStatus",
+            "fieldValues": "PENDING,REJECTED,OPEN,SOLVED,CANCELED"
+        }
+    ],
+    "relationships": [
+        {
+            "relationshipType": "one-to-many",
+            "otherEntityName": "user",
+            "otherEntityRelationshipName": "ticket",
+            "relationshipName": "user"
+        }
+    ],
+    "changelogDate": "20191218155644",
+    "entityTableName": "ticket",
+    "dto": "mapstruct",
+    "pagination": "infinite-scroll",
+    "service": "serviceImpl",
+    "jpaMetamodelFiltering": false,
+    "fluentMethods": true,
+    "readOnly": false,
+    "clientRootFolder": "",
+    "applications": "*"
+}
